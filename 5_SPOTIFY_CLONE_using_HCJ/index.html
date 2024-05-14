@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportify Clone</title>
+    <!-- Specifing the path for favicon -->
+    <link rel="icon" href="./favicon.ico">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="cross">
+                <img class="invert" src="svgimg/cross.svg" alt="close">
+            </div>
+            <div class="home bg-grey rounded m-1 p-2">
+                <div class="invert" style="cursor: pointer;width: 80%;" class="log"><img width="86px"
+                        src="svgimg/logo.svg" alt="logo"></div>
+                <ul>
+                    <li><img class="invert" src="svgimg/home.svg" alt="home">Home</li>
+                    <li class="search"><img src="svgimg/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-2">
+                <div class="lib flex">
+                    <div class="heading">
+                        <img src="svgimg/playlist.svg" alt="playlist">
+                        <h2>
+                            Your Library
+                        </h2>
+                    </div>
+                    <div class="plus"><img src="svgimg/libPlus.svg" alt="plus-sign"></div>
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header p-1">
+                <div class="nav">
+                    <div class="hamContainer">
+                        <img class="invert hamburger" src="svgimg/hamburger.svg" alt="Menu">
+                        <button><img class="invert" src="svgimg/header-left.svg" alt="arrow-left"></button>
+                        <button><img class="invert" src="svgimg/header-right.svg" alt="arrow-right"></button>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <a href="#">Sign up</a>
+                    <button>Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists m-0">
+                <div class="spotify-heading">
+                    <h2>Spotify Playlists</h2>
+                    <p><a href="#">Show all</a></p>
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <button class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100"
+                                height="100">
+                                <path fill="currentColor" d="M3 22v-20l18 10-18 10z" />
+                            </svg>
+                        </button>
+                        <img src="https://i.scdn.co/image/ab67706f000000021ad1ef955a0e44dd65f3c418" alt="">
+                        <h3>New Music Friday</h3>
+                        <p>The very best in new music from around the..</p>
+                    </div>
+                    <div class="card">
+                        <button class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100"
+                                height="100">
+                                <path fill="currentColor" d="M3 22v-20l18 10-18 10z" />
+                            </svg>
+                        </button>
+                        <img src="https://i.scdn.co/image/ab67706f00000002104f039c1cc982d3617f4e4b" alt="">
+                        <h3>Feel Good Friday</h3>
+                        <p>Uplifting anthems to power your thoughts 'ti..</p>
+                    </div>
+                    <div class="card">
+                        <button class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100"
+                                height="100">
+                                <path fill="currentColor" d="M3 22v-20l18 10-18 10z" />
+                            </svg>
+                        </button>
+                        <img src="https://i.scdn.co/image/ab67706f000000028c54ba26478bc37843e0da0b" alt="">
+                        <h3>New Joints</h3>
+                        <p>All the New Joints featuring the Boogie..</p>
+                    </div>
+                    <div class="card">
+                        <button class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100"
+                                height="100">
+                                <path fill="currentColor" d="M3 22v-20l18 10-18 10z" />
+                            </svg>
+                        </button>
+                        <img src="https://i.scdn.co/image/ab67706f0000000225d50fa7cc51b307364050f5" alt="">
+                        <h3>Happy Beats</h3>
+                        <p>Feel-good dance music!</p>
+                    </div>
+                    <div class="card">
+                        <button class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100"
+                                height="100">
+                                <path fill="currentColor" d="M3 22v-20l18 10-18 10z" />
+                            </svg>
+                        </button>
+                        <img src="https://i.scdn.co/image/ab67706f000000022c1e380ba288d8da68bbc55f" alt="">
+                        <h3>New Music..</h3>
+                        <p>This week's handpicked new dance and..</p>
+                    </div>
+                    <div class="card">
+                        <button class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100"
+                                height="100">
+                                <path fill="currentColor" d="M3 22v-20l18 10-18 10z" />
+                            </svg>
+                        </button>
+                        <img src="https://i.scdn.co/image/ab67706f0000000250809580a13b250095c06f38" alt="">
+                        <h3>A Perfect Day</h3>
+                        <p>Timeless melodies from your favorite art,..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="spotifyPlaylists m-0">
+                <h2>Sleep</h2>
+                <div class="cardContainer">
+                    <div class="card">
+                        <button class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100"
+                                height="100">
+                                <path fill="currentColor" d="M3 22v-20l18 10-18 10z" />
+                            </svg>
+                        </button>
+                        <img src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06" alt="">
+                        <h3>Sleep</h3>
+                        <p>Gentle Ambient piano to help your fall asleep.</p>
+                    </div>
+                    <div class="card">
+                        <button class="play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100"
+                                height="100">
+                                <path fill="currentColor" d="M3 22v-20l18 10-18 10z" />
+                            </svg>
+                        </button>
+                        <img src="https://i.scdn.co/image/ab67706f00000002d2291e0c5d43a1b21a941031" alt="">
+                        <h3>DayDreamer</h3>
+                        <p>Drift away with enthralling...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div class="about">
+                    <ul>
+                        <li>
+                            <h3>Company</h3>
+                        </li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">For the Record</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h3>Communities</h3>
+                        </li>
+                        <li><a href="#">For Artistst</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Vendors</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h3>Useful links</h3>
+                        </li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Free Mobile App</a></li>
+                    </ul>
+                </div>
+                <div class="socialMedia">
+                    <button><a href="#"><img class="invert" src="svgimg/instagram.svg" alt="instagram"></a></button>
+                    <button><a href="#"><img class="invert" src="svgimg/twitter.svg" alt="twitter"></a></button>
+                    <button><a href="#"><img class="invert" src="svgimg/facebook.svg" alt="facebook"></a></button>
+                </div>
+            </div>
+            <hr class="bg-greyish">
+            <div class="copyright bg-greyish">
+                © 2024 Spotify AB
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="songinfo"></div>
+                <div class="songbuttons">
+                    <img class="invert" id="previous" src="svgimg/prev.svg" alt="previous-button">
+                    <img class="invert" id="play" src="svgimg/play.svg" alt="play-button">
+                    <img class="invert" id="next" src="svgimg/next.svg" alt="next-button">
+                </div>
+                <div class="durtime">
+                    <div class="volume">
+                        <img class="invert" src="svgimg/volhigh.svg" alt="Volume-High" id="vol">
+                        <input type="range" name="volume-range" id="range">
+                    </div>
+                    <div class="songtime"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

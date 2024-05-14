@@ -1,0 +1,65 @@
+*{
+    padding : 0;
+    margin: 0;
+}
+
+body::before {
+    opacity: 0.8;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background: url('/static/bg.jpg') no-repeat center center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 3px 15px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    margin: 12px auto;
+    max-width: 70%;
+}
+
+input, textarea {
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    display: block;
+    margin: 4px auto;
+    padding: 5px 12px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
